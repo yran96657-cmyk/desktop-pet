@@ -8,6 +8,16 @@
 
 ---
 
+## 📥 直接下载使用
+
+不想配置 Python 环境？下载 exe 直接双击运行，无需配置任何内容：
+
+📦 **[desktop_pet_monitorfix.exe（Windows 版，32.8 MB）](releases/desktop_pet_monitorfix.exe)**
+
+> exe 已配置好后端地址，下载后双击即可使用。
+
+---
+
 ## ✨ 功能特性
 
 - 🐾 **像素风桌宠**：常驻桌面右下角，随时陪伴
@@ -15,8 +25,6 @@
 - 🗣️ **毒舌吐槽**：根据你的摸鱼状态，定时生成刻薄一句话提醒
 - 💬 **对话聊天**：随时和桌宠聊天，获得毒舌但不失分寸的回复
 - 🎨 **自定义头像**：上传照片，AI 自动生成像素风桌宠形象
-- 📦 **本地自托管**：完全本地运行，数据不上传第三方
-
 
 ---
 
@@ -88,6 +96,7 @@ start_client.bat
 
 ---
 
+---
 
 ## 🗂️ 项目结构
 
@@ -101,6 +110,7 @@ desktop_pet_open_source/
 ├── server.py            # Flask 本地后端
 ├── env_utils.py         # 环境变量工具
 ├── assets/              # 图标资源
+├── releases/            # 打包好的 exe（可直接下载使用）
 ├── hooks/               # PyInstaller 钩子
 ├── rthooks/             # PyInstaller 运行时钩子
 ├── requirements.txt     # 运行依赖
@@ -111,6 +121,7 @@ desktop_pet_open_source/
 └── .env.example         # 环境变量模板
 ```
 
+---
 
 ## ❗ 注意事项
 
