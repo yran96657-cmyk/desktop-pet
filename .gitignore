@@ -1,6 +1,9 @@
 # 环境变量（含密钥，绝对不能提交）
 .env
 
+# 工作区配置（WorkBuddy 等本地工具配置）
+.workbuddy/
+
 # 构建产物
 dist/
 build/
