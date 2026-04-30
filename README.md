@@ -88,27 +88,6 @@ start_client.bat
 
 ---
 
-## 📦 打包为 EXE（可选）
-
-安装打包工具：
-
-```bash
-pip install -r requirements-build.txt
-```
-
-执行打包：
-
-```bat
-build.bat
-```
-
-打包结果：
-
-```
-dist/desktop_pet.exe
-```
-
----
 
 ## 🗂️ 项目结构
 
