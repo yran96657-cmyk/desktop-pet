@@ -111,25 +111,12 @@ desktop_pet_open_source/
 └── .env.example         # 环境变量模板
 ```
 
----
-
-## ⚙️ 后端 API
-
-| 路径 | 方法 | 说明 |
-|------|------|------|
-| `/api/health` | GET | 健康检查，返回配置状态 |
-| `/api/chat` | POST | 与桌宠对话 |
-| `/api/taunt` | POST | 获取一条毒舌吐槽 |
-| `/api/avatar` | POST | 上传图片生成像素头像 |
-
----
 
 ## ❗ 注意事项
 
 - 这是 **self-host 版本**，不提供官方托管服务
 - 你需要自己申请并填写 API Key
 - 本项目不附带任何生产环境凭证
-- `.env` 文件已被 `.gitignore` 排除，**请勿手动提交密钥**
 
 ---
 
